@@ -28,7 +28,6 @@ def getMaxSum(numData): # 요구 사항에 맞춰 처리된 2차원 정수 배�
     maxSum = 0 # 최대합
 
     ###########   여기부터 코딩 (2) ---------------->
-    sum1, sum2 = 0, 0
     for i in range(ARRAY_LENGTH-1):
         for j in range(ARRAY_LENGTH-1):
             hap = numData[i][j]+numData[i][j+1]\
