@@ -1,3 +1,4 @@
+## k번째수
 ## 정렬
 def solution(array, commands):
     answer = []
