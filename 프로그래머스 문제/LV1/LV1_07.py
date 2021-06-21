@@ -1,4 +1,4 @@
-## 자리수 더하기
+## 자릿수 더하기
 def solution(n):
     answer = 0
     while n > 0 :
