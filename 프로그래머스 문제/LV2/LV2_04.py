@@ -1,7 +1,6 @@
 ## 기능 개발 
 def solution(progresses, speeds):
     answer = []
-    
     queue = []
     for i in range(len(progresses)) :
         a = 100 -progresses[i]

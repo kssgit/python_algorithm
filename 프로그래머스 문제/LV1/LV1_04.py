@@ -17,12 +17,12 @@ commands=[[2, 5, 3], [4, 4, 1], [1, 7, 3]]
 
 
 ## 다른 사람 풀이
-# ??
+# list 와 map을 이용한 방법
 def solution1(array, commands):
     return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
 
 ## 다른 사람 풀이 2
-# sorted를 이용하는 방법
+# sorted(리스트)를 이용하는 방법
 def solution2(array, commands):
     answer = []
     for i,j,k in commands:

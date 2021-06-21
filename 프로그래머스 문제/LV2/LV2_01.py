@@ -1,4 +1,5 @@
 # 짝지어 제거하기
+# 시간안에 풀지 못함
 def solution(s):
     answer = -1
     fir_len = len(s)
@@ -37,3 +38,15 @@ print(solution(s))
 # 0이 되는 조건
 # 1. 처음부터 중복 문자열이 없거나
 # 2. 제거하는 도중 중복문자열이 없거나
+
+## 다른사람 풀이
+## Stack을 이용해 제거
+## stack의 길이가 0일 경우 1 
+def solution(s): 
+    stack = []
+    for i in s:
+        if len(stack) == 0: stack.append(i)
+        elif stack[-1] == i: stack.pop()
+        else: stack.append(i)
+    if len(stack) == 0: return 1
+    else: return 0

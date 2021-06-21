@@ -13,9 +13,7 @@ def solution(record):
             id.append([a[1],'님이 나갔습니다.'])
         else:
             dic[a[1]] = a[2]
-    print(dic)
-    print(id)
-    
+
     for i in id:
         answer.append(dic[i[0]]+i[1])
 
