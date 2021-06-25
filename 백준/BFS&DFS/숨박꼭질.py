@@ -1,4 +1,5 @@
 ## 최단 경로 구하기
+## BFS
 from collections import deque
 n , k = map(int, input().split())
 
