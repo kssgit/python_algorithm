@@ -1,4 +1,5 @@
 # 타겟 넘버
+# DFS 사용하여 모든 경우의 수를 구했다.
 answer = 0
 def solution(numbers, target):
     global answer
